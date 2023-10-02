@@ -1,0 +1,20 @@
+{
+  "name": "vue-complexity",
+  "version": "1.0.2",
+  "description": "List vue files that exceed cyclomatic complexity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "complexity"
+  ],
+  "author": "fammet_h",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.6"
+  }
+}

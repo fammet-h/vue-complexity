@@ -1,0 +1,29 @@
+{
+  "name": "svelte-complexity",
+  "version": "2.0.0",
+  "description": "List Svelte files that exceed cyclomatic complexity.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test --test-isolation=none"
+  },
+  "bin": {
+    "svelte-complexity": "./index.js"
+  },
+  "keywords": [
+    "svelte",
+    "complexity"
+  ],
+  "author": "fammet_h",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "svelte": "^5.57.3"
+  }
+}
